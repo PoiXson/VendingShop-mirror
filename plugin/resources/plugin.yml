@@ -1,0 +1,19 @@
+name: ${project.name}
+main: com.poixson.vendingshop.VendingShopPlugin
+version: ${project.version}
+api-version: ${spigot-short-version}
+depend:
+  - pxnPluginLib
+authors: [ lorenzop ]
+website: ${project.url}
+description: ${project.description}
+commands:
+    vending:
+        description: "Shop commands"
+        usage: "Usage: /vending <command>"
+permission-message: "You don't have permission to use this command."
+permissions:
+    vending.*:
+        default: op
+        description: Gives access to all food commands
+        children:
