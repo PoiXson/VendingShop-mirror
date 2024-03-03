@@ -1,0 +1,6 @@
+VendingShop - Vending machines in minecraft
+
+
+2024-- - 0.1.1
+==================
+* initial release
