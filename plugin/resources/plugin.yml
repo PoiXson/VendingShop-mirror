@@ -15,5 +15,5 @@ permission-message: "You don't have permission to use this command."
 permissions:
     vending.*:
         default: op
-        description: Gives access to all food commands
+        description: Gives access to all vending commands
         children:
