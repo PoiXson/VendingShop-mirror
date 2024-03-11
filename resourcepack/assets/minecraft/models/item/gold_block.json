@@ -1,0 +1,7 @@
+{
+	"parent": "minecraft:block/gold_block",
+	"overrides": [
+		{ "predicate": { "custom_model_data": 11 }, "model": "vendingshop:vending/vending_machine"   },
+		{ "predicate": { "custom_model_data": 12 }, "model": "vendingshop:vending/bubblegum_machine" }
+	]
+}
