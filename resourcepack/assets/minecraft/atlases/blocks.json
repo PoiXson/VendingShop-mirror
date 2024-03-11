@@ -1,6 +1,5 @@
 {
 	"sources": [
-		{ "type": "directory", "source": "vending", "prefix": "vending/" },
-		{ "type": "directory", "source": "gui",     "prefix": "gui/"     }
+		{ "type": "directory", "source": "vending", "prefix": "vending/" }
 	]
 }
