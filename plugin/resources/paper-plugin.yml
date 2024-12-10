@@ -2,9 +2,14 @@ name: ${project.name}
 main: com.poixson.vendingshop.VendingShopPlugin
 version: '${project.version}'
 api-version: '${bukkit-short-version}'
-depends:
-  - pxnPluginLib
-  - Vault
+dependencies:
+    server:
+        pxnPluginLib:
+            load: BEFORE
+            required: true
+        Vault:
+            load: BEFORE
+            required: true
 authors: lorenzop
 website: ${project.url}
 description: ${project.description}
